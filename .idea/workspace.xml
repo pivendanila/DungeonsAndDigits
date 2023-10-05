@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c3ee0c-67a4-4fc3-8448-9673115e5a83" name="Changes" comment="" />
+    <list default="true" id="33c3ee0c-67a4-4fc3-8448-9673115e5a83" name="Changes" comment="Project started">
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/WrongValueException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creatures/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creatures/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creatures/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creatures/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creatures/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WMXTpDJh2Ie59GlLWgjmSQzJE7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,6 +53,36 @@
       <option name="presentableId" value="Default" />
       <updated>1696543435288</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project started">
+      <created>1696543559047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696543559047</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Project started">
+      <created>1696543734892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696543734892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project started" />
   </component>
 </project>

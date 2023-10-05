@@ -1,4 +1,4 @@
 package Creatures;
 
-public class Monster {
+public class Monster extends Creature{
 }
