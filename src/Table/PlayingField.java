@@ -23,14 +23,14 @@ public class PlayingField {
         System.out.println();
         System.out.println("Battle started!");
         System.out.println();
-        for (Monster monster : dungeon) {
+        for (int i=0; i< dungeon.length; i++) {
             while (true) {
-                System.out.println(brave_player.attack(monster));
-                if (!monster.isAlive()) {
-                    System.out.println(String.format("Monster %s is finally dead...", monster.getName()));
+                System.out.println(brave_player.attack(dungeon[i]));
+                if (!dungeon[i].isAlive()) {
+                    System.out.println(String.format("Monster %s is finally dead...", dungeon[i].getName()));
                     break;
                 }
-                System.out.println(monster.attack(brave_player));
+                System.out.println(dungeon[i].attack(brave_player));
                 if (!brave_player.isAlive()) {
                     System.out.println(String.format("Player %s is finally dead...", brave_player.getName()));
                     break;
@@ -40,9 +40,9 @@ public class PlayingField {
             if (!brave_player.isAlive()) {
                 System.out.println("Game is over!");
                 break;
-            } else {
-                if(dungeon.length == 1) System.out.println(String.format("Player %s wins!!!", brave_player.getName()));
-
+            }
+            else {
+                if(dungeon.length == i+1) System.out.println(String.format("Player %s wins!!!", brave_player.getName()));
                 else {
                     System.out.println(String.format("He had %d point of health.", brave_player.getHealth()));
                     System.out.println("Brave palyer found a new Monster!");
