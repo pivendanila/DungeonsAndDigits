@@ -10,7 +10,7 @@ public class Main {
         Monster monster2 = new Monster("Huge Goose", 4, 2, 3, 6, 10);
         Monster monster3 = new Monster("Stupid Donkey", 4, 2, 3, 6, 10);
         Monster[] monsters = new Monster[] {monster1, monster2, monster3};
-        PlayingField.filTheDungeon(monsters);
+        PlayingField.fillTheDungeon(monsters);
         PlayingField.setPlayer(shrek);
         PlayingField.startBattle();
     }

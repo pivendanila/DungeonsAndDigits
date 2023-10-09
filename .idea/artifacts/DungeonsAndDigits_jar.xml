@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DungeonsAndDigits.jar">
+    <output-path>$PROJECT_DIR$/</output-path>
+    <root id="archive" name="DungeonsAndDigits.jar">
+      <element id="module-output" name="DungeonsAndDigits" />
+    </root>
+  </artifact>
+</component>

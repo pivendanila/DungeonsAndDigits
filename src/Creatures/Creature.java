@@ -3,6 +3,10 @@ package Creatures;
 import Exceptions.WrongValueException;
 import Table.Dice;
 
+/**
+ * Parent Creature class with all base functions of Players and Monsters.
+ * @autor Piven Danila.
+ */
 public abstract class Creature {
     private int attack;
     private int defence;
@@ -21,6 +25,11 @@ public abstract class Creature {
         setHealth(health);
     }
 
+    /**
+     * Attack function for all Creatures.
+     * @param enemy will take damage.
+     * @return String that will be showed in concole.
+     */
     public String attack(Creature enemy){
         int attack_modificator = this.getAttack() - enemy.getDefence() + 1;
         boolean attack_success = false;
@@ -43,6 +52,10 @@ public abstract class Creature {
         return String.format("%s dealt %d point of damage to %s", getName(), current_damage, enemy.getName());
     }
 
+    /**
+     * Function for damaging Creature.
+     * @param current_damage is value of damage that Creature takes.
+     */
     public void takeDamage(int current_damage){
         this.current_health=this.current_health-current_damage;
         if (this.current_health<1){
@@ -50,10 +63,17 @@ public abstract class Creature {
         }
     }
 
+    /**
+     * Function for changing Creature alive field to false.
+     */
     protected void healthIsOver(){
         alive = false;
     }
 
+    /**
+     * Getter for alive field.
+     * @return Creatures' alive state.
+     */
     public boolean isAlive() {
         return alive;
     }

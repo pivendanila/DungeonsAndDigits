@@ -2,6 +2,10 @@ package Creatures;
 
 import Exceptions.WrongValueException;
 
+/**
+ * Extended Creature class implementing specific functions for player.
+ * @autor Piven Danila.
+ */
 public class Player extends Creature{
 
     private int revive_counter;

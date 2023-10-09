@@ -2,6 +2,10 @@ package Creatures;
 
 import Exceptions.WrongValueException;
 
+/**
+ * Extended Creature class implementing specific functions for monster.
+ * @autor Piven Danila.
+ */
 public class Monster extends Creature{
     public Monster(String name, int attack, int defence, int min_damage, int max_damage, int health)
             throws WrongValueException {
